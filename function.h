@@ -4,7 +4,6 @@
 
 
 // declare arithmetic functions
-<<<<<<< HEAD
 int add(int a, int b);
  
 int subtract(int a, int b);
