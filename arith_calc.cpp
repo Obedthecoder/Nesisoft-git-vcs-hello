@@ -13,7 +13,12 @@ int main () {
     cin >> num2;
 
     // Perform the arithmetic operations and display the results
-    cout << "Sum: " << add (num1, num2) << endl;
+    cout << "Sum:        " << add(num1, num2)      << endl;
+    cout << "Difference: " << subtract(num1, num2) << endl;
+    cout << "Product:    " << multiply(num1, num2) << endl;
+    cout << "Quotient:   " << divide(num1, num2)   << endl;
+
+return 0;
 
     return 0;
 }
