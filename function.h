@@ -4,25 +4,16 @@
 
 
 // declare arithmetic functions
-int add(int a, int b) {
-    return a + b;
-}
+int add(int a, int b);
+ 
+int subtract(int a, int b);
 
-int subtract(int a, int b) {
-    return a - b;
-}
+int multiply(int a, int b);
 
-int multiply(int a, int b) {
-    return a * b;
-}
+double divide(int a, int b);
 
-double divide(int a, int b) {
-    return a / b;
-}
-
-int factorial(int n) {  
-     return (n == 0) ? 1 : n * factorial(n - 1);
-}
+int factorial(int n);
+  
 #endif // FUNCTION_H
 
 
